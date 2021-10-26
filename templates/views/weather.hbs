@@ -34,6 +34,8 @@
                             <p id="temp"><span  id="temp_real_val">0</span><sup>o</sup>C </p>
                             <p id="temp_status"><i class="fa fa-cloud" aria-hidden="true"></i></p>
                         </div>
+                        {{!-- <p>Have a nice day!</p> --}}
+                        
                     </div>
                 </div>
             </div>
@@ -82,7 +84,7 @@
                 "Dec",
             ];
             var now = new Date();
-            var month = months[now.getMonth()+1];
+            var month = months[now.getMonth()];
             var date = now.getDate();
             let today_data=document.getElementById('today_data');
 
